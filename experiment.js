@@ -1331,10 +1331,11 @@ timeline.push(preload_images);
 // timeline.push(opening_instructions);
 
 // Uncomment for Prolific
-timeline.push(prolific_id_page);
-timeline.push(opening_instructions_prolific);
+ timeline.push(prolific_id_page);
+ timeline.push(opening_instructions_prolific);
 
-timeline.push(consent_block);
+
+// timeline.push(consent_block);
 
 timeline.push(makeGumballPages(gumball_configs_intro));
 
