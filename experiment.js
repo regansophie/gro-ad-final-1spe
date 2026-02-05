@@ -1308,14 +1308,14 @@ var configs_s3 = makeConditionConfigs(bias, "bill",    "blue", 0.6, "male",   7)
 // ==================================================
 
 // Exposure phase catch trials (only configs that are actual exposure trials)
-assignCatchTrials(configs_s1, 1, 1);
-assignCatchTrials(configs_s2, 1, 1);
-assignCatchTrials(configs_s3, 1, 1);
+assignCatchTrials(configs_s1, 2, 2);
+assignCatchTrials(configs_s2, 2, 2);
+assignCatchTrials(configs_s3, 2, 2);
 
 // Prediction/test phase catch trials (whichever speaker list is used)
-assignCatchTrials(speaker_same, 1, 1);
-assignCatchTrials(speaker_diff_group, 1, 1);
-assignCatchTrials(speaker_same_group, 1, 1);
+assignCatchTrials(speaker_same, 2, 2);
+assignCatchTrials(speaker_diff_group, 2, 2);
+assignCatchTrials(speaker_same_group, 2, 2);
 
 
 // ==================================================
